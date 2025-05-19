@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import { Separator } from '@/components/ui/separator';
 import DesktopSidebar from '@/components/Sidebar';
 import BreadcrumbHeader from '@/components/BreadcrumbHeader';
-import { ModeToggle } from '@/components/ThemeModeToggle';
+import ModeToggle from '@/components/ThemeModeToggle';
 
 interface LayoutProps {
   children?: React.ReactNode;
